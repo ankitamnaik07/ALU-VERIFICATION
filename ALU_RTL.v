@@ -126,6 +126,7 @@ module alu_reference_model #(parameter WIDTH = 8,parameter cmd_width = 4)(
                                         cnt <=0;
                                 end
                         end
+//
                        
 else ERR<= 1;
                     end
